@@ -3,7 +3,10 @@ import { ChevronRight, Zap, Shield, Truck } from 'lucide-react';
 
 const Hero: React.FC = () => {
   return (
-    <section id="inicio" className="bg-gradient-to-br from-black via-gray-900 to-black py-20">
+    <section
+      id="inicio"
+      className="bg-gradient-to-br from-black via-gray-900 to-black py-20"
+    >
       <div className="container mx-auto px-4">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Content */}
@@ -12,14 +15,16 @@ const Hero: React.FC = () => {
               <h1 className="text-5xl lg:text-6xl font-bold text-white leading-tight">
                 Hardware
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-red-600">
-                  {' '}Gamer
+                  {' '}
+                  Gamer
                 </span>
                 <br />
                 de Alto Rendimiento
               </h1>
               <p className="text-xl text-gray-300 leading-relaxed">
-                Descubre la mejor selección de componentes gaming. RTX 4000 Series, 
-                AMD Ryzen, y todo lo que necesitas para dominar cada partida.
+                Descubre la mejor selección de componentes gaming. RTX 4000
+                Series, AMD Ryzen, y todo lo que necesitas para dominar cada
+                partida.
               </p>
             </div>
 
@@ -69,7 +74,7 @@ const Hero: React.FC = () => {
           <div className="relative">
             <div className="absolute inset-0 bg-gradient-to-r from-red-600/20 to-transparent rounded-2xl"></div>
             <img
-              src="https://images.pexels.com/photos/7148991/pexels-photo-7148991.jpeg?auto=compress&cs=tinysrgb&w=800"
+              src="https://s3-sa-east-1.amazonaws.com/saasargentina/BXSuN5TtqTyvJNSbe0hy/imagen"
               alt="Gaming Setup"
               className="w-full h-[500px] object-cover rounded-2xl shadow-2xl"
             />
